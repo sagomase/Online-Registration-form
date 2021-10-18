@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Registration form</title>
+        <style>
+           
+            body{
+                
+                background-image: url('background.jpg');
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+                background-size: 100% 100%;  
+            
+            }
+            h1{
+                background-color: lightgoldenrodyellow;
+                text-align: center;
+                color: cadetblue;
+            }
+            h2{
+               color: rgb(26, 74, 110);
+               text-align: center;
+
+            }
+            form{
+                margin: 20px auto;
+                width: 320px;
+                color:revert;
+    
+            }
+            input{
+                padding: 10px;
+                font-size: small;
+            }
+            input[type="text"]{
+                display: block;
+                margin-bottom: 10px;
+                width: 100%;
+                border: 2px solid rgb(68, 108, 139);
+                background-color: rgb(247, 239, 197);
+            }
+            input[type="date"]{
+                display: block;
+                margin-bottom: 10px;
+                width: 100%;
+                border: 2px solid rgb(68, 108, 139);
+                background-color: rgb(247, 239, 197);
+            }
+            input[type="radio"]{
+                margin: 0px 8px 20px 18px;
+                border: 2px solid rgb(68, 108, 139);
+                background-color: rgb(247, 239, 197);
+            }
+        
+            input[type="tel"]{
+                display: block;
+                margin-bottom: 10px;
+                width: 100%;
+                border: 2px solid rgb(68, 108, 139);
+                background-color: rgb(247, 239, 197);
+            }
+            input[type="email"]{
+                display: block;
+                margin-bottom: 10px;
+                width: 100%;
+                border: 2px solid rgb(68, 108, 139);
+                background-color: rgb(247, 239, 197);
+            }
+            input[type="file"]{
+                display: block;
+                margin-bottom: 10px;
+                width: 100%;
+                border: 2px solid rgb(68, 108, 139);
+                background-color: rgb(247, 239, 197);
+            }
+            
+
+            input[type="submit"]{
+                height: 45px;
+                width: 350px;
+                border: none;
+                color: white;
+                font-size: 20px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                background-color: rgb(50, 109, 163);
+            }
+            input:focus{
+                background-color: white;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <H1><marquee>Digital Computer Institute</marquee></H1>
+        <h2>Online Registration form </h2>
+        <form>
+        First Name :<br>
+                <input type="text"Name="fname"placeholder="Enter your first name"required><br>
+        Last Name :
+                <input type="text"Name="lname"placeholder="Enter your last name"required><br>
+        
+        Address :
+                <input type="text"Name="Aname"placeholder="Enter your address"required><br>
+        Date of Birth :
+                <input type="date" name="bday"required><br>
+        <label="phone">Contact number :</label>
+                <input type="tel" id="phone" name="phone"maxlength="10"placeholder="Enter your contact number"required><br>
+        
+                
+        Email:<input type="email" name="email"placeholder="Enter your email"required><br>
+
+        Gender :
+                <input type="radio"Name="gender" value="Male"> Male 
+                 <input type="radio"Name="gender" value="Female"> Female<br>
+        
+        Select image:
+                <input type ="file" name="image" multiple><br>
+        
+               
+                <input type="submit"id=button value="Submit">
+                
+
+     </form>   
+    </body>
+</html>
